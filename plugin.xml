@@ -12,8 +12,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <engine name="cordova" version=">=3.0.0" />
   </engines>
 
-  <name>Android TV Plugin</name>
-
   <platform name="android">
 	
 	<config-file target="AndroidManifest.xml" parent="/manifest">
