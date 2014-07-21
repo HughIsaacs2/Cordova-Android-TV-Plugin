@@ -14,7 +14,7 @@ For gamepad support turn to this plugin: https://github.com/judax/cordova-plugin
 Install
 -------
 
-`cordova plugin add https://github.com/hughisaacs2/Cordova-Android-TV-Plugin.git
+`cordova plugin add https://github.com/hughisaacs2/Cordova-Android-TV-Plugin.git`
 
 Source
 -------------
