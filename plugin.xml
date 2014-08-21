@@ -26,7 +26,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<uses-feature android:name="android.hardware.location.network" android:required="false" />
 		<uses-feature android:name="android.hardware.telephony" android:required="false" />
     </config-file>
-	<config-file target="AndroidManifest.xml" parent="/manifest">
+	<config-file target="AndroidManifest.xml" parent="/manifest/application">
 		<android:isGame="true" />
     </config-file>
 	<config-file target="AndroidManifest.xml" parent="/manifest/application/activity/intent-filter">
