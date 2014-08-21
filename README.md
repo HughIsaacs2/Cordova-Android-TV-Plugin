@@ -9,7 +9,7 @@ If you want to interact with the controls on an Android TV or Google TV device j
 
 For gamepad support turn to this plugin: https://github.com/judax/cordova-plugin-gamepad
 
-**Note:** The Ouya tag was specifically set to be listed as a game, if you want it to show up on an Ouya as an app you'll have to replace the part in my plugin.xml file that says "tv.ouya.intent.category.GAME" with "tv.ouya.intent.category.APP".
+**Note:** For Ouya and Android TV the plugin was specifically set to be list your app as a game, if you want it to show up on an Ouya and Android TV as an app you'll have to replace the part in my plugin.xml file that says "tv.ouya.intent.category.GAME" with "tv.ouya.intent.category.APP" and the part that says 'android:isGame="true"' to false.
 
 Install
 -------
