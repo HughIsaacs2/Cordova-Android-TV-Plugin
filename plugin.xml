@@ -6,7 +6,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	
 	<name>AndroidTVPlugin</name>
     <description>Cordova Android TV Plugin</description>
-	<author>Hugh Isaacs II</author>
+	<author email="hughisaacs@acrylicstyle.com" href="http://hughisaacs2.acrylicstyle.com">Hugh Isaacs II</author>
     <license>MIT</license>
 	<keywords>ecosystem:cordova,cordova-android</keywords>
 	<!--

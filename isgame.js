@@ -17,16 +17,12 @@ module.exports = function(context) {
         throw new Error('Unable to find AndroidManifest.xml: ' + err);
       }
 
-      var appClass = 'true';
-
-      if (data.indexOf(appClass) == -1) {
-
-        var result = data.replace(/<application/g, '<application android:isGame="' + appClass + '"');
+        var result = data.replace(/<application/g, '<application android:isGame="true"');
 
         fs.writeFile(manifestFile, result, 'utf8', function (err) {
           if (err) throw new Error('Unable to write into AndroidManifest.xml: ' + err);
         })
-      }
+
     });
   }
 
