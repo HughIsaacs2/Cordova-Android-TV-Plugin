@@ -7,14 +7,14 @@ That's all it does (I just needed something to streamline this process for me).
 
 If you want to interact with the controls on an Android TV or Google TV device just set events on the arrow keys like you would with a desktop web app.
 
-For gamepad support turn to this plugin: https://github.com/judax/cordova-plugin-gamepad
+For gamepad support on anything below Android 5.0, turn to this plugin: https://github.com/judax/cordova-plugin-gamepad
 
 **Note:** For Ouya and Android TV the plugin was specifically set to be list your app as a game, if you want it to show up on an Ouya and Android TV as an app you'll have to replace the part in my plugin.xml file that says "tv.ouya.intent.category.GAME" with "tv.ouya.intent.category.APP" and the part that says 'android:isGame="true"' to false.
 
 Install
 -------
 
-`cordova plugin add com.hughisaacs2.cordova.plugins.androidtvplugin`
+`cordova plugin add https://github.com/hughisaacs2/Cordova-Android-TV-Plugin.git`
 
 Source
 -------------
