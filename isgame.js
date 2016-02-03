@@ -16,9 +16,20 @@ module.exports = function(context) {
       if (err) {
         throw new Error('Unable to find AndroidManifest.xml: ' + err);
       }
-
-        var result = data.replace(/<application/g, '<application android:isGame="true"');
-
+        
+        var result;
+        
+        if (!(/<application[^>]*\bandroid:isGame="true"/).test(data)) {
+            
+            result = data.replace(/<application/g, '<application android:isGame="true"');
+            
+        }
+        else {
+            
+            result = data;
+            
+        }
+        
         fs.writeFile(manifestFile, result, 'utf8', function (err) {
           if (err) throw new Error('Unable to write into AndroidManifest.xml: ' + err);
         })
