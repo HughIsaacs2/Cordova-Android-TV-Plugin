@@ -11,6 +11,12 @@ For gamepad support on anything below Android 5.0, turn to this plugin: https://
 
 **Note:** For Ouya and Android TV the plugin was specifically set to be list your app as a game, if you want it to show up on an Ouya and Android TV as an app you'll have to replace the part in my plugin.xml file that says "tv.ouya.intent.category.GAME" with "tv.ouya.intent.category.APP" and the part that says 'android:isGame="true"' to false.
 
+To-do
+-------
+* Set "isGame" from Cordova manifest.
+* Set "uses gamepad" from Cordova manifest.
+* Set app requirements from Cordova manifest (might make this into a separate plugin).
+
 Install
 -------
 
