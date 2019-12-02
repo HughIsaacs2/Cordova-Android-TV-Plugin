@@ -5,6 +5,8 @@ Cordova plugin to add tags to the AndroidManifest.xml that'll let your Cordova a
 
 That's all it does (I just needed something to streamline this process for me).
 
+This does not add the Leanback banner, you'll sadly have to do that yourself (for now).
+
 If you want to interact with the controls on an Android TV or Google TV device just set events on the arrow keys like you would with a desktop web app.
 
 For gamepad support on anything below Android 5.0, turn to this plugin: https://github.com/judax/cordova-plugin-gamepad
