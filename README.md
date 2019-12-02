@@ -13,6 +13,7 @@ For gamepad support on anything below Android 5.0, turn to this plugin: https://
 
 To-do
 -------
+* Set Android TV leanback banner from Cordova manifest.
 * Set "isGame" from Cordova manifest.
 * Set "uses gamepad" from Cordova manifest.
 * Set app requirements from Cordova manifest (might make this into a separate plugin).
